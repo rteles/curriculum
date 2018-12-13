@@ -42,6 +42,10 @@
     font-size: calc(10px + 2vmin);
     color: white;
   }
+
+  .rating{
+    margin-right: 3px;
+  }
 }
 
 @keyframes App-logo-spin {

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import StarRatingComponent from 'react-star-rating-component';
 import content from '../../content/skills.js';
 import '../../css/skills.css';
 import '../../css/ratings.css';
@@ -11,22 +12,6 @@ class skills extends Component {
     }
   }
 
-  renderRatings(level){
-    let maxLevel = 5;
-    const ratingList = [];
-
-    for(let i = 0; i < level; i++)
-    {
-      ratingList.push((<div className='isSet'></div>));
-    }
-
-    while(ratingList.length < maxLevel){
-      ratingList.push((<div></div>));
-    }
-
-    return ratingList;
-  }
-
   render() {
     return (
       <div className="skills">
@@ -37,7 +22,21 @@ class skills extends Component {
               <div className="skillsInfo" key={i}>
                 <h4>{item.name}</h4>
                 <div className="rating">
-                  {this.renderRatings(item.level)}
+                  <StarRatingComponent
+                    name="rating"
+                    editing={false}
+                    renderStarIcon={() => {
+                      return (
+                        <span className="rating">
+                          <i className='fa fa-circle' />
+                        </span>
+                      );
+                    }}
+                    starColor="#343434"
+                    emptyStarColor="#d5d6d6"
+                    starCount={5}
+                    value={item.level}
+                  />
                 </div>
               </div>
             )

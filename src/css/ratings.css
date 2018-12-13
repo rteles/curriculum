@@ -1,5 +1,5 @@
 @media print, screen {
-    .rating {
+    /* .rating {
         height: 17px;
         display: flex;
         flex-direction: row;
@@ -15,5 +15,5 @@
 
     .rating div.isSet {
         background-color: #343434;
-    }
+    } */
 }
