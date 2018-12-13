@@ -1,0 +1,54 @@
+@media print, screen {
+  .App {
+    background-color: #282c34;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #000;
+  }
+
+  .Page{
+    background-color: #fff;
+    width: 800px;
+    height: 980px;
+    padding: 20px 30px;
+  }
+
+  h1{
+    color: #000;
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+
+  h2{
+    color: #000;
+    font-size: 22px;
+    font-weight: normal;
+    margin-top: 10px;
+    padding-top: 0px;
+  }
+
+  h3{
+    font-size: 22px;
+    padding: 5px 0;
+    margin: 5px 0;
+  }
+
+  .App-header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
