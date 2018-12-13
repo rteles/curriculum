@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import content from '../../content/languages.js';
 import StarRatingComponent from 'react-star-rating-component';
 import '../../css/languages.css';
-import '../../css/ratings.css';
 
 class skills extends Component {
   constructor() {
@@ -15,7 +14,10 @@ class skills extends Component {
   render() {
     return (
       <div className="languages">
-        <h3>Languages</h3>
+        <h3>
+          <span><i class="fa fa-flag fa-lg"></i></span>
+          <span>Languages</span>
+        </h3>
         {
           this.state.data.map((item, i) => {
             return (

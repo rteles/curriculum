@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import StarRatingComponent from 'react-star-rating-component';
 import content from '../../content/skills.js';
 import '../../css/skills.css';
-import '../../css/ratings.css';
 
 class skills extends Component {
   constructor() {
@@ -15,7 +14,10 @@ class skills extends Component {
   render() {
     return (
       <div className="skills">
-        <h3>Skills</h3>
+        <h3>
+          <span><i class="fa fa-puzzle-piece fa-lg"></i></span>
+          <span>Skills Info</span>
+        </h3>
         {
           this.state.data.map((item, i) => {
             return (

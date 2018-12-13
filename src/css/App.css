@@ -46,6 +46,11 @@
   .rating{
     margin-right: 3px;
   }
+
+  h3 span i{
+    color: #373d48;
+    margin-right: 5px;
+  }
 }
 
 @keyframes App-logo-spin {
