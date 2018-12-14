@@ -10,8 +10,13 @@
   .Page{
     background-color: #fff;
     width: 800px;
-    height: 980px;
     padding: 20px 30px;
+  }
+
+  .exportButton button{
+    position: absolute;
+    left: 50px;
+    top: 50px;
   }
 
   h1{
