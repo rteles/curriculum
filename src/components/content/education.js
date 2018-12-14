@@ -23,6 +23,7 @@ class education extends Component {
                             return (
                                 <div className="entry existingEntry">
                                     <p className="title">{item.title}</p>
+                                    <p className="location">{item.location} - {item.graduationInfo}</p>
                                     <div className="pointer"><i className="fa fa-circle fa-xs"></i></div>
                                     <div className="text desc">
                                         <p>{item.description}</p>

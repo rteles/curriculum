@@ -21,20 +21,13 @@
         margin-left: 9px;
     }
 
-    .secType1AccInitials{
-        position: absolute;
-        text-align: right;
-        bottom: -0.9rem;
-        right: 1rem;
-        font-size: 2.0rem;
-        height: 4.4rem;
-        vertical-align: bottom;
-        font-family: cursive;
-    }
-
     .titleContainer{
         padding-left: 5.8rem;
         display: block;
         position: relative;
+    }
+
+    .titleContainer h2{
+        margin-top: 0px;
     }
 }
