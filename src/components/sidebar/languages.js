@@ -15,7 +15,7 @@ class skills extends Component {
     return (
       <div className="languages">
         <h3>
-          <span><i class="fa fa-flag fa-lg"></i></span>
+          <span><i className="fa fa-flag fa-lg"></i></span>
           <span>Languages</span>
         </h3>
         {

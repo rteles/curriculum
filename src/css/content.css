@@ -1,0 +1,15 @@
+@media print, screen {
+    .content{
+        padding-right: 15px;
+    }
+
+    .content .fa-circle{
+        margin-left: 2.8rem;
+        top: 0.9rem;
+        left: -38px;
+        display: block;
+        position: absolute;
+        color: #252932;
+        font-size: 13px;
+    }
+}

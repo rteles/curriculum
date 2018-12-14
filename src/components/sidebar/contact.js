@@ -14,7 +14,7 @@ class contact extends Component {
     return (
       <div className="contact">
         <h3>
-          <span><i class="fa fa-user fa-lg"></i></span>
+          <span><i className="fa fa-user fa-lg"></i></span>
           <span>Personal Info</span>
         </h3>
         {

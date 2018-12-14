@@ -1,9 +1,40 @@
 @media print, screen {
-.title{
-    color: #000;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
+    .title{
+        color: #000;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: -25px;
+    }
+
+    .titleEntry{
+        text-align: left;
+    }
+
+    .titleIcon{
+        position: absolute;
+        display: block;
+        margin-top: 10px;
+        font-size: 90px;
+        color: #252932;
+        margin-left: 9px;
+    }
+
+    .secType1AccInitials{
+        position: absolute;
+        text-align: right;
+        bottom: -0.9rem;
+        right: 1rem;
+        font-size: 2.0rem;
+        height: 4.4rem;
+        vertical-align: bottom;
+        font-family: cursive;
+    }
+
+    .titleContainer{
+        padding-left: 5.8rem;
+        display: block;
+        position: relative;
+    }
 }

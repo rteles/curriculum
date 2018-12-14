@@ -15,8 +15,8 @@ class skills extends Component {
     return (
       <div className="skills">
         <h3>
-          <span><i class="fa fa-puzzle-piece fa-lg"></i></span>
-          <span>Skills Info</span>
+          <span><i className="fa fa-puzzle-piece fa-lg"></i></span>
+          <span>Skills</span>
         </h3>
         {
           this.state.data.map((item, i) => {

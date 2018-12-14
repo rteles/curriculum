@@ -1,0 +1,46 @@
+@media print, screen {
+    .education{
+        color: #000;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin: 0 0 0 60px;
+    }
+
+    .education h3{
+        margin: 0;
+        padding: 0;
+    }
+
+    .education p{
+        font-size: 14px;
+        text-align: justify;
+        margin: 0 0 0 11px;
+        padding: 10px 0 0 30px;
+        border-left: 1px solid #d5d6d6;
+    }
+
+    .education .title{
+        font-weight: 700;
+    }
+
+    .education .company{
+        font-weight: 500;
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .education .date{
+        font-size: 14px;
+        position: absolute;
+        left: -4rem;
+        width: 7rem;
+        z-index: 1;
+        margin-top: 2px;
+        color: #343434;
+        padding-top: .1rem;
+        line-height: 1.7em;
+        text-align: left;
+    }
+}

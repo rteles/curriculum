@@ -51,6 +51,27 @@
     color: #373d48;
     margin-right: 5px;
   }
+
+  .content{
+      padding-left: 0;
+      width: auto;
+      display: block;
+  }
+
+  .entry{
+      position: relative;
+  }
+
+  .text{
+      font-size: 1.5rem;
+  }
+}
+
+@media print{
+  .Page{
+    padding: 0;
+    margin: 0;
+  }
 }
 
 @keyframes App-logo-spin {
