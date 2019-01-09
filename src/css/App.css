@@ -3,7 +3,7 @@
     background-color: #282c34;
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     color: #000;
   }
 
@@ -13,10 +13,16 @@
     padding: 20px 30px;
   }
 
-  .exportButton button{
-    position: absolute;
-    left: 50px;
-    top: 50px;
+  .exportButton{
+    margin-top: 20px;
+  }
+
+  .languageButtons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 110px;
   }
 
   h1{

@@ -5,13 +5,17 @@ import Languages from './languages.js';
 import '../../css/sidebar.css';
 
 class sidebar extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
 
     return (
       <div className="sidebar">
-        <Contacts />
-        <Skills />
-        <Languages />
+        <Contacts language={this.props.language} />
+        <Skills language={this.props.language} />
+        <Languages language={this.props.language} />
       </div>
     );
   }
