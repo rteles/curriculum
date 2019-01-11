@@ -7,7 +7,7 @@ import Export from './components/export';
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = { language: 'BR' };
+    this.state = { language: 'EN' };
   }
 
   componentDidMount() {
