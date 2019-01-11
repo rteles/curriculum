@@ -3,6 +3,7 @@ import './css/App.css';
 import Content from './components/content/content';
 import Sidebar from './components/sidebar/sidebar';
 import Export from './components/export';
+import 'bootstrap/dist/css/bootstrap.css';
 
 class App extends Component {
   constructor(props) {
@@ -23,17 +24,17 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Export>
-        </Export>
         <div id="overallPage" className="Page">
           <header className="App-header">
             <Content language={this.state.language} />
             <Sidebar language={this.state.language} />
           </header>
         </div>
-        <div className="languageButtons">
-          <button onClick={() => this.setLanguage('BR')}>PT-BR</button>
-          <button onClick={() => this.setLanguage('EN')}>ENG</button>
+        <div className="optionButtons">
+          <button className="btn btn-info" onClick={() => this.setLanguage('BR')}>PT-BR</button>
+          <button className="btn btn-info" onClick={() => this.setLanguage('EN')}>ENG</button>
+          <Export>
+          </Export>
         </div>
       </div>
     );

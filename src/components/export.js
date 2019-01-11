@@ -31,7 +31,7 @@ const printPDF = function printPDF() {
 
 const Export = ({ children }) => (
     <div className="exportButton">
-        <button onClick={() => printPDF()}>Download PDF</button>
+        <button className="btn btn-info" onClick={() => printPDF()}>Download PDF</button>
         {children}
     </div>
 );

@@ -43,4 +43,8 @@
         line-height: 1.7em;
         text-align: left;
     }
+
+    .education h3 span i{
+      margin-left: -11px;
+    }
 }

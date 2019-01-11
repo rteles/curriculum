@@ -1,27 +1,6 @@
 @media print, screen {
     .sidebar {
         width: 240px;
-    }
-
-    .skillsInfo {
-        font-size: 15px;
-        padding: 0;
-        margin-bottom: 10px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 100%;
-    }
-
-    .skillsInfo p {
-        margin: 0;
-        padding: 0;
-    }
-
-    .skillsInfo h4 {
-        font-size: 15px;
-        font-weight: 600;
-        padding: 0;
-        margin: 0 0 5px 0;
+        margin-top: -20px;
     }
 }

@@ -10,19 +10,22 @@
   .Page{
     background-color: #fff;
     width: 800px;
-    padding: 20px 30px;
+    padding: 35px 30px 20px 30px;
+    margin: 20px 0;
   }
 
   .exportButton{
     margin-top: 20px;
   }
 
-  .languageButtons{
+  .optionButtons{
     margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 110px;
+    left: 10%;
+    position: absolute;
+  }
+
+  .optionButtons button{
+    margin-right: 5px;
   }
 
   h1{
@@ -61,6 +64,7 @@
   h3 span i{
     color: #373d48;
     margin-right: 5px;
+    margin-left: -4px;
   }
 
   .content{

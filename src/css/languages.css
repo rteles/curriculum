@@ -10,7 +10,6 @@
 .languagesInfo {
     font-size: 15px;
     padding: 0;
-    margin-bottom: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
