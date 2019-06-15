@@ -25,7 +25,8 @@ const printPDF = function printPDF() {
                 doc.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
                 heightLeft -= pageHeight;
             }
-            doc.save('Sthefanny Gonzaga Curriculum.pdf');
+            
+            doc.save('Roger Teles Curriculum.pdf');
         });
 };
 

@@ -12,7 +12,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    document.title = "Sthefanny Gonzaga";
+      document.title = "My CV in react";
   }
 
   setLanguage(language) {

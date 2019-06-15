@@ -39,8 +39,11 @@ class experience extends Component {
                                         <p className="company">{item.company}</p>
                                         <div className="pointer"><i className="fa fa-circle fa-xs"></i></div>
                                         <div className="text desc">
-                                            <p>{item.description}</p>
-                                            <p></p>
+                                        {
+                                            item.description.map((d, index) => {
+                                                return <p>{d.text}</p>
+                                            })
+                                        }
                                         </div>
                                     </div>
                                 )

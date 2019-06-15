@@ -4,10 +4,10 @@ const education = [
         title: 'Education',
         value: [
             {
-                title: 'Universidade Castelo Branco (UCB)',
-                location: 'Rio de Janeiro - Brazil',
-                graduationInfo: 'Graduated December 2010',
-                description: "Bachelor's Degree, Information Technology",
+                title: 'Faculdades Opet',
+                location: 'Curitiba, PR - Brazil',
+                graduationInfo: 'Graduated December 2014',
+                description: "Systems Analysis and Program Development",
             }
         ]
     },
@@ -16,10 +16,10 @@ const education = [
         title: 'Educação',
         value: [
             {
-                title: 'Universidade Castelo Branco (UCB)',
-                location: 'Rio de Janeiro - Brasil',
-                graduationInfo: 'Graduada em Dezembro de 2010',
-                description: "Bacharelado em Sistemas de Informação",
+                title: 'Faculdades Opet',
+                location: 'Curitiba, PR - Brasil',
+                graduationInfo: 'Graduado em Dezembro de 2014',
+                description: "Análise e Desenvolvimento de Sistemas",
             }
         ]
     }

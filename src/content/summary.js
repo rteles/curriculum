@@ -4,7 +4,7 @@ const summary = [
     title: 'Summary',
     value: {
       title: 'Summary',
-      description: 'I am a full stack developer with knowledge in some front end and back end languages, responsive frameworks and best code practices. I am dedicated to perfecting my craft by learning from more seasoned developers, and continuously making strides to learn all that I can about development.',
+      description: "I'm a .NET Developer with 8 years of experience working in the information technology and services industry. Skilled in .NET, TSQL, JavaScript & Python languages. I also have knowledge of Design Patterns, DDD, SOLID principles, Unit Tests and experience working with Microsoft Azure & Amazon Web Services.",
       icon: 'fas fa-user',
     }
   },
@@ -13,7 +13,7 @@ const summary = [
     title: 'Resumo',
     value: {
       title: 'Summary',
-      description: 'Sou uma desenvolvedora full stack com conhecimento em algumas linguagens de front-end e back-end, frameworks responsivos e melhores práticas de códigos. Eu me dedico a me aperfeiçoar aprendendo de desenvolvedores mais experientes e continuamente fazendo progressos para aprender tudo o que puder sobre desenvolvimento.',
+      description: 'Desenvolvedor .NET com oito anos de experiência trabalhando na área de Tecnologia da informação e serviços. Hábil nas linguagens .NET, T-SQL e JavaScript, com conhecimentos de Design Patterns, CI/CD, DDD, SOLID, e testes unitários. Experiência em projetos utilizando serviços da AWS e Azure, além de automação de builds com Azure DevOps.',
       icon: 'fas fa-user',
     }
   }
