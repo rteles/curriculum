@@ -3,16 +3,16 @@ const title = [
         key: 'EN',
         title: 'Title',
         value: {
-            name: 'Sthefanny Gonzaga',
-            title: 'Full Stack Developer',
+            name: 'Roger Teles',
+            title: '.NET Developer',
         }
     },
     {
         key: 'BR',
         title: 'Título',
         value: {
-            name: 'Sthefanny Gonzaga',
-            title: 'Full Stack Developer',
+            name: 'Roger Teles',
+            title: 'Desenvolvedor .NET',
         }
     }
 ];

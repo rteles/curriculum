@@ -32,29 +32,36 @@ class skills extends Component {
               return (
                 <div className="skillsInfo" key={i}>
                   <h4>{item.name}</h4>
-                  <div className="rating">
-                    <StarRatingComponent
-                      name="rating"
-                      editing={false}
-                      renderStarIcon={() => {
-                        return (
-                          <span className="rating">
-                            <i className='fa fa-circle' />
-                          </span>
-                        );
-                      }}
-                      starColor="#343434"
-                      emptyStarColor="#d5d6d6"
-                      starCount={5}
-                      value={item.level}
-                    />
-                  </div>
+                  {renderStars(item)}
                 </div>
               )
             })
         }
       </div>
     );
+  } 
+}
+
+function renderStars(item) {
+  if(item.level)
+  {
+    return <div className="rating">
+              <StarRatingComponent
+                name="rating"
+                editing={false}
+                renderStarIcon={() => {
+                  return (
+                    <span className="rating">
+                      <i className='fa fa-circle' />
+                    </span>
+                  );
+                }}
+                starColor="#343434"
+                emptyStarColor="#d5d6d6"
+                starCount={5}
+                value={item.level} 
+              />
+           </div>
   }
 }
 

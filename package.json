@@ -2,7 +2,7 @@
   "name": "cv",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sthefanny.github.io/curriculum",
+  "homepage": "https://rteles.github.io/curriculum",
   "dependencies": {
     "bootstrap": "^4.2.1",
     "font-awesome": "^4.7.0",

@@ -1,10 +1,11 @@
 const languages = [
     {
         key: 'EN',
-        title: 'Languages',
+        title: 'Language',
         value: [
-            { name: 'Brazilian Portuguese', level: 5 },
+            { name: 'Portuguese', level: 5 },
             { name: 'English', level: 4 },
+            { name: 'Spanish', level: 2 },
         ]
     },
     {
@@ -13,6 +14,7 @@ const languages = [
         value: [
             { name: 'Português', level: 5 },
             { name: 'Inglês', level: 4 },
+            { name: 'Espanhol', level: 2 },
         ]
     }
 ];

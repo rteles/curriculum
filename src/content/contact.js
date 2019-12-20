@@ -1,26 +1,26 @@
 const contactContent = [
     {
         key: 'EN',
-        title: 'Personal Info',
+        title: 'Contact',
         value: [
-            { name: 'Address', value: 'Curitiba - Paraná - Brazil' },
-            { name: 'Phone', value: '+55 21 99492-1101' },
-            { name: 'E-mail', value: 'sthefannygonzaga@gmail.com' },
-            { name: 'Skype', value: 'sthefannygonzaga' },
-            { name: 'LinkedIn', value: 'linkedin.com/in/sthefannygonzaga/' },
-            { name: 'Github', value: 'github.com/Sthefanny' },
+            { name: 'Address', value: 'Curitiba - PR - Brazil' },
+            { name: 'Phone', value: '+55 41 99710-6179' },
+            { name: 'E-mail', value: 'r.teles@live.com' },
+            // { name: 'Skype', value: 'r.teles' },
+            { name: 'LinkedIn', value: 'linkedin.com/in/rogerteles' },
+            { name: 'Github', value: 'github.com/rteles' },
         ]
     },
     {
         key: 'BR',
-        title: 'Info Pessoal',
+        title: 'Contato',
         value: [
-            { name: 'Endereço', value: 'Curitiba - Paraná - Brazil' },
-            { name: 'Celular', value: '+55 21 99492-1101' },
-            { name: 'E-mail', value: 'sthefannygonzaga@gmail.com' },
-            { name: 'Skype', value: 'sthefannygonzaga' },
-            { name: 'LinkedIn', value: 'linkedin.com/in/sthefannygonzaga/' },
-            { name: 'Github', value: 'github.com/Sthefanny' },
+            { name: 'Endereço', value: 'Curitiba - PR - Brazil' },
+            { name: 'Celular', value: '+55 41 99710-6179' },
+            { name: 'E-mail', value: 'r.teles@live.com' },
+            // { name: 'Skype', value: 'r.teles' },
+            { name: 'LinkedIn', value: 'linkedin.com/in/rogerteles' },
+            { name: 'Github', value: 'github.com/rteles' },
         ]
     }
 ];
