@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/curriculum/static/media/fontawesome-webfont.af7ae505.woff2"
   },
   {
-    "revision": "33a94e889403d882dd75",
+    "revision": "01882e96abc69fd5a036",
     "url": "/curriculum/static/css/main.a82a092f.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/curriculum/static/js/runtime~main.2fae871c.js"
   },
   {
-    "revision": "33a94e889403d882dd75",
-    "url": "/curriculum/static/js/main.33a94e88.chunk.js"
+    "revision": "01882e96abc69fd5a036",
+    "url": "/curriculum/static/js/main.01882e96.chunk.js"
   },
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/curriculum/static/css/1.5eeab279.chunk.css"
   },
   {
-    "revision": "c083f6ec99d8ca7f558ab1faf1d0872f",
+    "revision": "2030fc56f343063454da5c31942974e5",
     "url": "/curriculum/index.html"
   }
 ];
